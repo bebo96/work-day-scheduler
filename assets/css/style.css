@@ -69,3 +69,29 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.hour{
+  border: solid 1px grey;
+}
+
+.grey{
+  background-color: grey;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
